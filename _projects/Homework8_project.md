@@ -51,6 +51,6 @@ Below is where we can put some links to both the data and the analysis code as b
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/Homework_8.ipynb" text="The Analysis" %}
+{% include elements/button.html link=""https://github.com/cbarnes1230/online_cv_public/blob/main/python_notebooks/Homework_8.ipynb" text="The Analysis" %}
 </div>
 
