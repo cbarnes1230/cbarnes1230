@@ -21,13 +21,13 @@ Here is my combined charts for Homework 8:
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/combinedCharts.json" style="width: 100%"></vegachart>
 
-# Write Up for Chart 1
+# Write Up for Chart 1 (Left)
 
-"For my first visualization, I chose to do a histogram that displays a breakdown of the count of records for each county in the building inventory dataset. For the scales, I chose to just do a standard height of 300, but decided to up the width scale in order to be able to clearly read each of the county names with no overlap. I chose bar marks because they are simple and easy to read and interpret, especially for the goal of this visualization."(Homework 7 writeup). I used the graph and same data set that I used in Homework 7, but altered it to get things to work with Altair. I had to alter the first line of code after importing Altair, and also had to alter the last line of the original Homework 7 code, in order to get it to work. For the interactivity of this graph, I used the "click" interaction, which allows the user to click on any of the bars in the bar chart and see just that bar highlighted. This allows for easier reading of any specific data that the user may be wanting to look at, without being overwheled by all of the charts. I did not have to alter any data analysis within this dataset.
+"For my first visualization, I chose to use the rect vega-lite plot to display the number of buildings in each county distributed by square footage. I decided to use 40 bins in order to distribute the data more granularly. I also increased the height to 1000 to be able to read all of the counties with no overlap, and increased the width to 1000 to give a bigger range of square footage numbers"(Homeowrk 7 writeup). I used the graph and same data set that I used in Homework 7, but altered it to get things to work with Altair. I had to alter the first line of code after importing Altair, and also had to alter the last line of the original Homework 7 code, in order to get it to work, just as I did with the first graph. I also combined both graphs in a side by side view so that they could be saved together within my files.
 
-# Write Up for Chart 2
+# Write Up for Chart 2 (Right)
 
-"For my second visualization, I chose to use the rect vega-lite plot to display the number of buildings in each county distributed by square footage. I decided to use 40 bins in order to distribute the data more granularly. I also increased the height to 1000 to be able to read all of the counties with no overlap, and increased the width to 1000 to give a bigger range of square footage numbers"(Homeowrk 7 writeup). I used the graph and same data set that I used in Homework 7, but altered it to get things to work with Altair. I had to alter the first line of code after importing Altair, and also had to alter the last line of the original Homework 7 code, in order to get it to work, just as I did with the first graph. I also combined both graphs in a side by side view so that they could be saved together within my files.
+"For my second visualization, I chose to do a histogram that displays a breakdown of the count of records for each county in the building inventory dataset. For the scales, I chose to just do a standard height of 300, but decided to up the width scale in order to be able to clearly read each of the county names with no overlap. I chose bar marks because they are simple and easy to read and interpret, especially for the goal of this visualization."(Homework 7 writeup). I used the graph and same data set that I used in Homework 7, but altered it to get things to work with Altair. I had to alter the first line of code after importing Altair, and also had to alter the last line of the original Homework 7 code, in order to get it to work. For the interactivity of this graph, I used the "click" interaction, which allows the user to click on any of the bars in the bar chart and see just that bar highlighted. This allows for easier reading of any specific data that the user may be wanting to look at, without being overwheled by all of the charts. I did not have to alter any data analysis within this dataset.
 
 # Resources Used
 
@@ -51,6 +51,6 @@ Below is where we can put some links to both the data and the analysis code as b
 </div>
 
 <div class="right">
-{% include elements/button.html link=""https://github.com/cbarnes1230/online_cv_public/blob/main/python_notebooks/Homework_8.ipynb" text="The Analysis" %}
+{% include elements/button.html link=""https://github.com/cbarnes1230/cbarnes1230.github.io/blob/main/python_notebooks/Homework_8.ipynb" text="The Analysis" %}
 </div>
 
